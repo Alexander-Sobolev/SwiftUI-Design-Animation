@@ -27,7 +27,7 @@ struct ContentView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 50)
-            }
+            } 
             .padding(.horizontal, 20)
             .padding(.top, 20)
             
