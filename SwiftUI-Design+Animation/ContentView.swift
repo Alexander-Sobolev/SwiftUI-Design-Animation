@@ -15,7 +15,7 @@ struct ContentView: View {
                     Text("Design SwiftUI")
                         .font(.title)
                         .fontWeight(.semibold)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.white)
                     
                     Text("Sertificate")
                         .foregroundColor(Color("Primary"))
@@ -38,6 +38,7 @@ struct ContentView: View {
         }
         .frame(width: 340, height: 220)
         .background(Color.black)
+        .cornerRadius(20)
     }
 }
 
