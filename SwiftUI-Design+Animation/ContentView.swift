@@ -34,7 +34,7 @@ struct ContentView: View {
             Image("2")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 300, height: 100, alignment: .top)
+                .frame(width: 300, height: 110, alignment: .top)
         }
         .frame(width: 340, height: 220)
         .background(Color.black)
