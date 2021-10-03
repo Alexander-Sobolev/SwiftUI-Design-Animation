@@ -39,6 +39,7 @@ struct ContentView: View {
         .frame(width: 340, height: 220)
         .background(Color.black)
         .cornerRadius(20)
+        .shadow(radius: 20)
     }
 }
 
