@@ -15,11 +15,15 @@ struct ContentView: View {
                 .background(Color(#colorLiteral(red: 1, green: 0.2007738416, blue: 0.409167171, alpha: 1)))
                 .cornerRadius(20)
                 .offset(x: 0, y: -40)
+                .scaleEffect(0.9)
+                .rotationEffect(.degrees(10))
             
             BackCardView()
                 .background(Color(#colorLiteral(red: 0.4723210059, green: 0.3816566417, blue: 1, alpha: 1)))
                 .cornerRadius(20)
                 .offset(x: 0, y: -20)
+                .scaleEffect(0.95)
+                .rotationEffect(.degrees(5))
             
             CardView()
         }
