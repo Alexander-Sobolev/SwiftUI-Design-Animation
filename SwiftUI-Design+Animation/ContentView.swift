@@ -20,9 +20,10 @@ struct ContentView: View {
                 .rotation3DEffect(
                     .degrees(10),
                     axis: (x: 10, y: 0, z: 0))
+                .blendMode(.hardLight)
             
             BackCardView()
-                .background(Color(#colorLiteral(red: 0.4723210059, green: 0.3816566417, blue: 1, alpha: 1)))
+                .background(Color(#colorLiteral(red: 0.3762339139, green: 0.1589064367, blue: 1, alpha: 1)))
                 .cornerRadius(20)
                 .offset(x: 0, y: -20)
                 .scaleEffect(0.95)
@@ -30,6 +31,7 @@ struct ContentView: View {
                 .rotation3DEffect(
                     .degrees(5),
                     axis: (x: 10, y: 0, z: 0))
+                .blendMode(.hardLight)
             
             CardView()
         }
