@@ -11,13 +11,15 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             
-            VStack {
-                Spacer()
-            }
-            .frame(width: 300, height: 220)
-            .background(Color.blue)
-            .cornerRadius(20)
-            .offset(x: 0, y: -20)
+            BackCardView()
+                .background(Color(#colorLiteral(red: 1, green: 0.2007738416, blue: 0.409167171, alpha: 1)))
+                .cornerRadius(20)
+                .offset(x: 0, y: -40)
+            
+            BackCardView()
+                .background(Color(#colorLiteral(red: 0.4723210059, green: 0.3816566417, blue: 1, alpha: 1)))
+                .cornerRadius(20)
+                .offset(x: 0, y: -20)
             
             CardView()
         }
@@ -63,5 +65,15 @@ struct CardView: View {
         .background(Color.black)
         .cornerRadius(20)
         .shadow(radius: 20)
+    }
+}
+
+struct BackCardView: View {
+    var body: some View {
+        VStack {
+            Spacer()
+        }
+        .frame(width: 340, height: 220)
+        
     }
 }
