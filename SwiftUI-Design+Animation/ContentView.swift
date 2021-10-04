@@ -11,6 +11,11 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             
+            HStack {
+                Text("Sertificates")
+                Spacer()
+            }
+            
             BackCardView()
                 .background(Color(#colorLiteral(red: 1, green: 0.2007738416, blue: 0.409167171, alpha: 1)))
                 .cornerRadius(20)
