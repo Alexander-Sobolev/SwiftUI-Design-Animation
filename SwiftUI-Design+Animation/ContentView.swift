@@ -38,6 +38,7 @@ struct ContentView: View {
                 .blendMode(.hardLight)
             
             CardView()
+                .blendMode(.hardLight)
             
             BottomCardView()
                 .blur(radius: 20)
