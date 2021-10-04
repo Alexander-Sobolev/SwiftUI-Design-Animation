@@ -47,7 +47,9 @@ struct ContentView: View {
                     .lineSpacing(4)
                 Spacer()
             }
-            .padding()
+            .padding(.top, 8)
+            .padding(.horizontal, 20)
+            .frame(maxWidth: .infinity)
             .background(Color("Background 3"))
             .cornerRadius(30)
             .shadow(radius: 20)
