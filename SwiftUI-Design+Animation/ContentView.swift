@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             TitleView()
+                .blur(radius: 20)
             
             BackCardView()
                 .background(Color(#colorLiteral(red: 1, green: 0.2007738416, blue: 0.409167171, alpha: 1)))
@@ -37,6 +38,7 @@ struct ContentView: View {
             CardView()
             
             BottomCardView()
+                .blur(radius: 20)
         }
     }
 }
