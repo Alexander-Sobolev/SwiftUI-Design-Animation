@@ -37,6 +37,10 @@ struct ContentView: View {
             CardView()
             
             VStack {
+                Rectangle()
+                    .frame(width: 40, height: 5)
+                    .cornerRadius(3)
+                    .opacity(0.1)
                 Text("Developing responsive design in SwiftUI")
                 Spacer()
             }
