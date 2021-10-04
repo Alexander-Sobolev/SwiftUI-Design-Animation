@@ -10,11 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            
-            HStack {
-                Text("Sertificates")
-                Spacer()
-            }
+            TitleView()
             
             BackCardView()
                 .background(Color(#colorLiteral(red: 1, green: 0.2007738416, blue: 0.409167171, alpha: 1)))
@@ -39,6 +35,16 @@ struct ContentView: View {
                 .blendMode(.hardLight)
             
             CardView()
+            
+            VStack {
+                Text("Developing responsive design in SwiftUI")
+                Spacer()
+            }
+            .padding()
+            .background(Color("Background 3"))
+            .cornerRadius(30)
+            .shadow(radius: 20)
+            .offset(x: 0, y: 500)
         }
     }
 }
@@ -92,5 +98,21 @@ struct BackCardView: View {
         }
         .frame(width: 340, height: 220)
         
+    }
+}
+
+struct TitleView: View {
+    var body: some View {
+        VStack {
+            HStack {
+                Text("Sertificates")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                Spacer()
+            }
+            .padding()
+            
+            Spacer()
+        }
     }
 }
