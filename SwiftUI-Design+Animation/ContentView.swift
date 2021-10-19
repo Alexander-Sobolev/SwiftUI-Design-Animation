@@ -89,7 +89,7 @@ struct ContentView: View {
             // Счетчик для настройки нижней карточки 
             //Text("\(bottomState.height)").offset(y: -300)
             
-            BottomCardView()
+            BottomCardView() 
                 .offset(x: 0, y: showCard ? 360 : 1000)
                 .offset(y: bottomState.height)
                 .blur(radius: show ? 20: 0)
