@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B42F81782725B54500FA9C29 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F81772725B54500FA9C29 /* MenuView.swift */; };
 		B477F33527071AFB007BEB67 /* SwiftUI_Design_AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B477F33427071AFB007BEB67 /* SwiftUI_Design_AnimationApp.swift */; };
 		B477F33727071AFB007BEB67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B477F33627071AFB007BEB67 /* ContentView.swift */; };
 		B477F33927071AFC007BEB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B477F33827071AFC007BEB67 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B42F81772725B54500FA9C29 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		B477F33127071AFB007BEB67 /* SwiftUI-Design+Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Design+Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B477F33427071AFB007BEB67 /* SwiftUI_Design_AnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Design_AnimationApp.swift; sourceTree = "<group>"; };
 		B477F33627071AFB007BEB67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				B477F33427071AFB007BEB67 /* SwiftUI_Design_AnimationApp.swift */,
 				B477F33627071AFB007BEB67 /* ContentView.swift */,
+				B42F81772725B54500FA9C29 /* MenuView.swift */,
 				B477F33827071AFC007BEB67 /* Assets.xcassets */,
 				B477F33D27071AFC007BEB67 /* Info.plist */,
 				B477F33A27071AFC007BEB67 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B477F33727071AFB007BEB67 /* ContentView.swift in Sources */,
+				B42F81782725B54500FA9C29 /* MenuView.swift in Sources */,
 				B477F33527071AFB007BEB67 /* SwiftUI_Design_AnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
