@@ -9,8 +9,12 @@ import SwiftUI
 
 struct MenuView: View {
     var body: some View {
-        Text("Личный кабинет")
-            .font(.system(size: 20, weight: .bold, design: .rounded)) // 247
+        HStack {
+            Image(systemName: "gear") // 338
+            
+            Text("Личный кабинет")
+                .font(.system(size: 20, weight: .bold, design: .rounded))
+        }
     }
 }
 
