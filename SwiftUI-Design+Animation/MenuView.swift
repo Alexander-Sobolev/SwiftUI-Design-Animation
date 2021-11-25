@@ -14,7 +14,7 @@ struct MenuView: View {
             
             Text("Личный кабинет")
                 .font(.system(size: 20, weight: .bold, design: .rounded))
-        }                
+        }                 
     }
 }
 
