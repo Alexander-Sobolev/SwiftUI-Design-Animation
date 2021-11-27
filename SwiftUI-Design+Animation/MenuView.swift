@@ -13,12 +13,12 @@ struct MenuView: View {
             Image(systemName: "gear") // 338
             
             Text("Личный кабинет")
-                .font(.system(size: 20, weight: .bold, design: .rounded)) 
+                .font(.system(size: 20, weight: .bold, design: .rounded))
         }
     }
 }
 
-struct MenuView_Previews: PreviewProvider {
+struct MenuView_Previews: PreviewProvider { 
     static var previews: some View {
         MenuView()
     }
