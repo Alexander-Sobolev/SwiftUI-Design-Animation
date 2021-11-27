@@ -13,8 +13,8 @@ struct MenuView: View {
             Image(systemName: "gear") // 338
             
             Text("Личный кабинет")
-                .font(.system(size: 20, weight: .bold, design: .rounded))
-        }              
+                .font(.system(size: 20, weight: .bold, design: .rounded)) 
+        }
     }
 }
 
